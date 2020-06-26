@@ -38,6 +38,7 @@ public class DeviceControl extends AppCompatActivity implements AdapterView.OnIt
 
     static Spinner spinner;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -74,6 +75,7 @@ public class DeviceControl extends AppCompatActivity implements AdapterView.OnIt
 
 
         spinner = (Spinner) findViewById(R.id.spinner);
+        spinner.setPrompt("Device List");
 
         spinner.setOnItemSelectedListener(this);
 
