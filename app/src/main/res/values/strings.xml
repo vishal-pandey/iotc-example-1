@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Connect</string>
+    <string name="spinner_title">Device Title</string>
+    <string name="title_activity_scanqr">Scanqr</string>
+</resources>
